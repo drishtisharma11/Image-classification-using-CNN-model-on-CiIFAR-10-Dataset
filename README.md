@@ -4,15 +4,15 @@ This project demonstrates an image classification task using a Convolutional Neu
 
 The project focuses on building a CNN model that extracts features from the images and performs classification with high accuracy.
 
-#Dataset
+# Dataset
 The CIFAR-10 dataset consists of the following:
 
 -60,000 images in total.
 -50,000 training images.
 -10,000 test images.
 
-#Image resolution: 32x32 pixels with 3 color channels (RGB).
-#10 classes:
+# Image resolution: 32x32 pixels with 3 color channels (RGB).
+# 10 classes:
 -Airplane
 -Automobile
 -Bird
@@ -26,14 +26,14 @@ The CIFAR-10 dataset consists of the following:
 
 Each image in the CIFAR-10 dataset is labeled with one of these categories. The dataset is split into training and test sets.
 
-#Libraries and Dependencies
+# Libraries and Dependencies
 This project requires the following Python libraries:
 
 -TensorFlow (for deep learning model building and training)
 -NumPy (for numerical computations)
 -Matplotlib (for data visualization)
 
-#Model Architecture
+# Model Architecture
 
 The model used in this project is a Convolutional Neural Network (CNN), which consists of the following components:
 
@@ -49,7 +49,7 @@ The model used in this project is a Convolutional Neural Network (CNN), which co
 
 -Softmax Activation: This activation function is used in the output layer to convert the model's raw predictions into probabilities, which sum to 1.
 
-#Model Training and Evaluation
+# Model Training and Evaluation
 - Training: The model is trained on the CIFAR-10 training set for 10 epochs. During training, the model learns to recognize patterns in the images and adjusts its weights to minimize the loss function.
 
 - Loss Function: Sparse Categorical Crossentropy is used as the loss function, as the task involves multi-class classification with integer labels.
@@ -58,13 +58,13 @@ The model used in this project is a Convolutional Neural Network (CNN), which co
 
 -Metrics: The accuracy of the model is tracked during training and evaluation to measure how well the model is performing.
 
-#Training Results and Visualization
+# Training Results and Visualization
 After training the model, the performance is evaluated on the CIFAR-10 test set. The accuracy achieved on the test set indicates how well the model generalizes to new, unseen data.
 
 Additionally, the training and validation accuracy are visualized over epochs to monitor the model's learning process. This helps in identifying any signs of overfitting or underfitting.
 
-#Conclusion
-In this project, we built a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset into 10 distinct classes. The model achieved a reasonable level of accuracy after training, and further #improvements can be made by experimenting with:
+# Conclusion
+In this project, we built a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset into 10 distinct classes. The model achieved a reasonable level of accuracy after training, and further # improvements can be made by experimenting with:
 
 Advanced regularization techniques (e.g., data augmentation, batch normalization).
 Hyperparameter tuning (e.g., adjusting the number of layers, filters, and learning rates).
